@@ -1,0 +1,32 @@
+{
+    "name": "svelte-hidden-email",
+    "version": "1.0.0",
+    "description": "Obfuscate email addresses from bots in your svelte project",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "svelte": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rallisf1/svelte-hidden-email.git"
+    },
+    "keywords": [
+        "svelte",
+        "svelte3",
+        "email",
+        "obfuscate",
+        "hide",
+        "hidden"
+    ],
+    "author": "rallisf1",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/rallisf1/svelte-hidden-email/issues"
+    },
+    "homepage": "https://github.com/rallisf1/svelte-hidden-email#readme",
+    "devDependencies": {
+        "svelte": "^3.48.0"
+    }
+}
