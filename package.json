@@ -6,7 +6,8 @@
     "module": "dist/index.mjs",
     "svelte": "src/index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "build": "rollup -c",
+        "dev": "rollup -c -w"
     },
     "repository": {
         "type": "git",
@@ -27,6 +28,10 @@
     },
     "homepage": "https://github.com/rallisf1/svelte-hidden-email#readme",
     "devDependencies": {
+        "rollup": "^2.72.1",
+        "rollup-plugin-css-only": "^3.1.0",
+        "rollup-plugin-node-resolve": "^5.2.0",
+        "rollup-plugin-svelte": "^7.1.0",
         "svelte": "^3.48.0"
     }
 }

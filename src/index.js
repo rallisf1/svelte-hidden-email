@@ -1,3 +1,2 @@
-import HiddenEmail from './HiddenEmail.svelte';
-
-export default HiddenEmail;
+export { default as HiddenEmail }
+from './HiddenEmail.svelte';
